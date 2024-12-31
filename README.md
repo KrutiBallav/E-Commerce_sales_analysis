@@ -1,7 +1,7 @@
 # E-Commerce Sales Analysis
 
 **Author:** Kruti Ballav Samantaray  
-**Date:** `r Sys.Date()`
+**Date:** 31-12-2024
 
 ## Table of Contents
 
