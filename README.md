@@ -1,12 +1,30 @@
----
-title: "E-Commerce Sales Analysis"
-author: "Kruti Ballav Samantaray"
-date: "`r Sys.Date()`"
-output:
-  html_document:
-    toc: true
-    toc_depth: 3
-    theme: cerulean
+# E-Commerce Sales Analysis
+
+**Author:** Kruti Ballav Samantaray  
+**Date:** `r Sys.Date()`
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Data Sources](#data-sources)
+3. [Prerequisites](#prerequisites)
+4. [Data Extraction](#data-extraction)
+   - [Connecting to MSSQL Server](#connecting-to-mssql-server)
+5. [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+   - [Excel Processing Steps](#excel-processing-steps)
+6. [Analysis](#analysis)
+   - [Query 1: Customer Segmentation Using RFM Model](#query-1-customer-segmentation-using-rfm-model)
+   - [Query 2: Summary Statistics](#query-2-summary-statistics)
+   - [Query 3: New Customers in 2019](#query-3-new-customers-in-2019)
+   - [Query 4: Top 10 Profitable States and Cities](#query-4-top-10-profitable-states-and-cities)
+   - [Query 5: First Order in Each State](#query-5-first-order-in-each-state)
+   - [Query 6: Orders and Sales by Weekday](#query-6-orders-and-sales-by-weekday)
+   - [Query 7: Monthly Profitability and Quantity](#query-7-monthly-profitability-and-quantity)
+   - [Query 8: Sales vs. Target by Category](#query-8-sales-vs-target-by-category)
+   - [Query 9: Sales and Profit by Category and Sub-Category](#query-9-sales-and-profit-by-category-and-sub-category)
+7. [Recommendations](#recommendations)
+8. [Conclusion](#conclusion)
+
 ---
 
 # Introduction
