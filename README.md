@@ -163,7 +163,7 @@ SELECT
     state, city, SUM(profit) AS total_profit, COUNT(DISTINCT product_id) AS products_sold, COUNT(DISTINCT customer_name) AS customers
 FROM combined_orders
 GROUP BY state, city
-ORDER BY total_profit DESC;
+ORDER BY total_profit DESC offset 0 rows fetch next 10 rows only;
 ```
 
 ### Result
