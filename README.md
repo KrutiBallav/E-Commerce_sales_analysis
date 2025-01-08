@@ -148,8 +148,7 @@ WHERE YEAR(order_date) = 2019
     WHERE YEAR(order_date) = 2018
   )
 GROUP BY customer_name, city, state
-ORDER BY total_spent DESC
-LIMIT 5;
+ORDER BY total_spent DESC;
 ```
 
 ### Result
@@ -164,8 +163,7 @@ SELECT
     state, city, SUM(profit) AS total_profit, COUNT(DISTINCT product_id) AS products_sold, COUNT(DISTINCT customer_name) AS customers
 FROM combined_orders
 GROUP BY state, city
-ORDER BY total_profit DESC
-LIMIT 10;
+ORDER BY total_profit DESC;
 ```
 
 ### Result
